@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="navbar-brand">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+          alt="Netflix image"
+          class="logo"
+        />
+      </div>
+      <div class="navbar-nav">
+        <a href="#" class="nav-link">Home</a>
+        <a href="#" class="nav-link">Tv Shows</a>
+        <a href="#" class="nav-link">Movies</a>
+        <a href="#" class="nav-link">New & Popular</a>
+        <a href="#" class="nav-link">My Lists</a>
+      </div>
+      <div class="navbar-right">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-bell"></i>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
+          alt="Profile image"
+          class="profile-icon"
+        />
+      </div>
+    </nav>
+
+    <!-- hero Section -->
+    <header class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">Naruto</h1>
+        <p class="hero-description">
+          The story of Naruto Uzumaki, a young ninja who seeks recognition from
+          his peers and dreams of becoming the Hokage, the leader of his
+          village.
+        </p>
+        <div class="hero-button">
+          <button class="btn btn-play"><i class="fa fa-play"></i>Play</button>
+          <button class="btn btn-more-info">
+            <i class="fa fa-info-circle"></i>More info
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Movie row -->
+    <div class="container">
+      <section class="content-section">
+        <h2 class="section-title">Only On Netflix</h2>
+
+        <div class="content-row">
+          <!-- Cards -->
+          <div class="content-card">
+            <img
+              src="https://th.bing.com/th/id/OIP.LSqXkxXOf7Tnr-3DZkyapQHaD8?rs=1&pid=ImgDetMain"
+              alt="When Life Gives You Tangerines"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-title">When Life Gives You Tangerines</div>
+                <div class="overlay-controls">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cards -->
+          <div class="content-card">
+            <img
+              src="https://igimage.indiaglitz.com/tamil/gallery/movies/retro2024/main.jpg"
+              alt="Retro"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-title">Retro</div>
+                <div class="overlay-controls">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cards -->
+          <div class="content-card">
+            <img
+              src="https://image.telanganatoday.com/wp-content/uploads/2023/06/Thalapathy-Vijay-starrer-Leos-first-look-poster-released_V_jpg--510x300-4g.webp?sw=412&dsz=510x300&iw=442&p=false&r=2.625"
+              alt="Leo"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-title">Leo</div>
+                <div class="overlay-controls">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cards -->
+          <div class="content-card">
+            <img
+              src="https://images.moneycontrol.com/static-mcnews/2025/05/20250501173219_hit-3-bxo.jpg?impolicy=website&width=1600&height=900"
+              alt="HIT: The Third Case"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-title">HIT: The Third Case</div>
+                <div class="overlay-controls">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cards -->
+          <div class="content-card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9jXIDAA3Gd1udgfpBfi_ORM6Tq2H1H4obn7yHdUxF29BuKyZikj4Ct5Da1K7g2hTqgT8&usqp=CAU"
+              alt="Meiyazhagan"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-title">Meiyazhagan</div>
+                <div class="overlay-controls">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Movie row -->
+    <div class="container">
+      <section class="content-section">
+        <h2 class="section-title">TV Shows</h2>
+
+        <div class="content-row">
+          <!-- Cards -->
+          <div class="content-card">
+            <img
+              src="https://th.bing.com/th/id/OIP.DjoV2QphHbISMMdiUYsCFAHaDt?rs=1&pid=ImgDetMain"
+              alt="Stranger Things"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-title">Stranger Things</div>
+                <div class="overlay-controls">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cards -->
+          <div class="content-card">
+            <img
+              src="https://metapress.com/wp-content/uploads/2023/08/all-of-us-are-dead-2.webp"
+              alt="All Of Us Are Dead"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-title">All Of Us Are Dead</div>
+                <div class="overlay-controls">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cards -->
+          <div class="content-card">
+            <img
+              src="https://res.cloudinary.com/jerrick/image/upload/d_642250b563292b35f27461a7.png,f_jpg,fl_progressive,q_auto,w_1024/676ce6d372b783001d0921e0.jpg"
+              alt="Squid Game"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-title">Squid Game</div>
+                <div class="overlay-controls">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cards -->
+          <div class="content-card">
+            <img
+              src="https://images.hindustantimes.com/tech/img/2025/03/26/1600x900/Wednesday_Season_2_release_date_1742982164814_1742982165038.jpg"
+              alt="Wednesday"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-title">Wednesday</div>
+                <div class="overlay-controls">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cards -->
+          <div class="content-card">
+            <img
+              src="https://img.etimg.com/thumb/width-1600,height-900,imgsize-25088,resizemode-75,msid-119645666/news/international/new-zealand/brad-pitt-link-to-netflixs-adolescence-series-and-the-advice-for-parents.jpg"
+              alt="Adoloscence"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-title">Adoloscence</div>
+                <div class="overlay-controls">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Movie row -->
+    <div class="container">
+      <section class="content-section">
+        <h2 class="section-title">Sci-Fi</h2>
+
+        <div class="content-row">
+          <!-- Cards -->
+          <div class="content-card">
+            <img
+              src="https://ayther.fr/wp-content/uploads/2025/03/the-electric-state-heure-1024x526.jpg"
+              alt="Electric State"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-title">The Electric State</div>
+                <div class="overlay-controls">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cards -->
+          <div class="content-card">
+            <img
+              src="https://i.ytimg.com/vi/2FsKh8zU7VQ/maxresdefault.jpg"
+              alt="The Adam Project"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-title">The Adam Project</div>
+                <div class="overlay-controls">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cards -->
+          <div class="content-card">
+            <img
+              src="https://ntvb.tmsimg.com/assets/p14394057_v_h10_aa.jpg?w=1280&h=720"
+              alt="Extinction"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-title">Extinction</div>
+                <div class="overlay-controls">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cards -->
+          <div class="content-card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjEN5OUzR26215mtwZjiPkgdip8balYCAuGyTPXD6tiz7zxRH9AIFh23jJJzoQgit8DQU&usqp=CAU"
+              alt="Oxygen"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-title">Oxygen</div>
+                <div class="overlay-controls">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cards -->
+          <div class="content-card">
+            <img
+              src="https://resizing.flixster.com/dLJqnikz_FiZbxBroBlxw6dSJko=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p24470304_v_h10_aa.jpg"
+              alt="Paradise"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-title">Paradise</div>
+                <div class="overlay-controls">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Movie row -->
+    <div class="container">
+      <section class="content-section">
+        <h2 class="section-title">Anime</h2>
+
+        <div class="content-row">
+          <!-- Cards -->
+          <div class="content-card">
+            <img
+              src="https://saichintala.com/wp-content/uploads/2015/10/death-note.jpg?w=1680&h=1050"
+              alt="Death Note"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-title">Death Note</div>
+                <div class="overlay-controls">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cards -->
+          <div class="content-card">
+            <img
+              src="https://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/Xi4AAOSwEPNgaAbk/$_57.JPG?set_id=8800005007"
+              alt="Attack On Titan"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-title">Attack On Titan</div>
+                <div class="overlay-controls">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cards -->
+          <div class="content-card">
+            <img
+              src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2025/03/demon-slayer-infinity-castle-movie-release-date.png"
+              alt="Demon Slayer"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-title">Demon Slayer</div>
+                <div class="overlay-controls">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cards -->
+          <div class="content-card">
+            <img
+              src="https://i0.wp.com/anitrendz.net/news/wp-content/uploads/2022/05/jujutsu-kaisen-0-film-main-poster.jpg?resize=696%2C391&ssl=1"
+              alt="Jujutsu Kaisen"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-title">Jujutsu Kaisen</div>
+                <div class="overlay-controls">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cards -->
+          <div class="content-card">
+            <img
+              src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2019/11/Vinland-Saga-Featured-and-Social-Media-Image-1.jpg-1.jpg"
+              alt="Vinland Saga"
+            />
+            <div class="netflix-badge">N</div>
+
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-title">Vinland Saga</div>
+                <div class="overlay-controls">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-top">
+          <div class="social-links">
+            <a href="#" class="social-link"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <div class="footer-column">
+            <ul>
+              <li><a href="#">Audio Description</a></li>
+              <li><a href="#">Investor Relations</a></li>
+              <li><a href="#">Legal Notices</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <ul>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Jobs</a></li>
+              <li><a href="#">Cookie Preferences</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <ul>
+              <li><a href="#">Gift Cards</a></li>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Corporate Information</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <ul>
+              <li><a href="#">Media Center</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <button class="service-code">Service Code</button>
+          <p class="copyright">© 1997-2024 Netflix, Inc.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
